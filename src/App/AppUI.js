@@ -20,7 +20,7 @@ function AppUI() {
 
     return(
         <React.Fragment>
-            <h1 className='text-center'>Pruebas SkyDropx</h1>
+            <h1 className='text-center'>Test SkyDropx</h1>
             <SearchComponent/>
                 {error && <p className="text-center">Lo sentimos, hubo un error...</p>}
                 {loading && <p className="text-center">Estamos cargando, por favor espere...</p>}
