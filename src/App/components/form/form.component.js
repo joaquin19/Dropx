@@ -28,13 +28,19 @@ function DropForm() {
         <form onSubmit={onSubmit}>
             <label>Add your new product</label>
             <div>
-                <input value={newDropValue} onChange={onChange} placeholder="Código postal de origen"/>
-            </div>
+                <input value={newDropValue} onChange={onChange} placeholder="zip code of origin"/>
+            </div> <br/>
             <div>
-                <input placeholder="Código postal de destino"/>
-            </div>
+                <input placeholder="destination zip code"/>
+            </div><br/>
+            <label>Package measurements</label>
             <div>
-                <input placeholder="Medidas del paquete"/>
+                <input className="mb-2" placeholder="weigth"/>
+                <input className="mb-2" placeholder="unit distance"/>
+                <input className="mb-2" placeholder="unit mass"/>
+                <input className="mb-2" placeholder="height"/>
+                <input className="mb-2" placeholder="width"/>
+                <input placeholder="length"/>
             </div>
 
             <div className="DropForm-button DropForm-buttonContainer">
