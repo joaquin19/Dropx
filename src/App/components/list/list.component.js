@@ -14,4 +14,4 @@ function ListComponent(props) {
     );
 }
 
-export default ListComponent;
+export {ListComponent};
